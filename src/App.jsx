@@ -33,7 +33,7 @@ function App() {
             style={{ backgroundImage: `url(${section.image})` }}
           >
             <h2>{section.title}</h2>
-            <div style={{ width: '80%', margin: 'auto', height: '400px' }}>
+            <div style={{ width: '80%', margin: 'auto', height: '100%' }}>
               <Canvas>
                 <Suspense fallback={null}>
                   <MyFBXViewer
